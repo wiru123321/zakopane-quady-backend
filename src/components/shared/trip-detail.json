@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_shared_trip_details",
+  "info": {
+    "displayName": "TripDetail"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.header"
+    }
+  }
+}

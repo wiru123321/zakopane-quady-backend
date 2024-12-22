@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_blocks_offers",
+  "info": {
+    "displayName": "Offers"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.header"
+    },
+    "blackType": {
+      "type": "boolean",
+      "default": false,
+      "required": false
+    },
+    "items": {
+      "displayName": "topTripItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.top-trip-item"
+    }
+  }
+}

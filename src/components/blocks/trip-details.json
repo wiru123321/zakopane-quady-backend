@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_blocks_trip_details",
+  "info": {
+    "displayName": "TripDetails"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.header"
+    },
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "items": {
+      "displayName": "TripDetail",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.trip-detail"
+    }
+  }
+}

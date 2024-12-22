@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_contact_items",
+  "info": {
+    "displayName": "ContactItem"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "action": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": ["PHONE", "MAIL", "ADRESS"]
+    },
+    "value": {
+      "type": "richtext"
+    }
+  }
+}

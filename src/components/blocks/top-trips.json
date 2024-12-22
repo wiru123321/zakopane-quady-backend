@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_blocks_top_trips",
+  "info": {
+    "displayName": "topTrips"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.header"
+    },
+    "items": {
+      "displayName": "topTripItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.top-trip-item"
+    }
+  }
+}

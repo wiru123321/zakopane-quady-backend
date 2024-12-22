@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_global_navigations",
+  "info": {
+    "displayName": "navigation",
+    "icon": "location-arrow",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "leftButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    },
+    "rightButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    },
+    "links": {
+      "displayName": "NavLink",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.nav-link"
+    }
+  }
+}

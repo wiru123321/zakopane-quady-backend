@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_shared_social_cards",
+  "info": {
+    "displayName": "SocialCard"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.header"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "FACEBOOK",
+        "INSTAGRAM",
+        "TIKTOK"
+      ]
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    }
+  }
+}

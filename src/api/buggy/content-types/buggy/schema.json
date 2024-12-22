@@ -1,0 +1,67 @@
+{
+  "kind": "collectionType",
+  "collectionName": "buggies",
+  "info": {
+    "singularName": "buggy",
+    "pluralName": "buggies",
+    "displayName": "buggy"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "name": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "slug": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "uid",
+      "targetField": "name"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.seo"
+    },
+    "blocks": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "blocks.banner",
+        "blocks.faq",
+        "blocks.hero",
+        "blocks.offers",
+        "blocks.reviews",
+        "blocks.trip-details",
+        "blocks.details",
+        "blocks.contact",
+        "blocks.features-with-images",
+        "blocks.primary-banner",
+        "blocks.about-with-images"
+      ]
+    }
+  }
+}

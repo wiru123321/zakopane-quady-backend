@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_shared_top_trip_items",
+  "info": {
+    "displayName": "topTripItem"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.header"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    },
+    "image": {
+      "allowedTypes": ["images", "files", "videos", "audios"],
+      "type": "media",
+      "multiple": false
+    },
+    "tag": {
+      "type": "string",
+      "required": false
+    }
+  }
+}

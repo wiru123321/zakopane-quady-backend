@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_blocks_paralax_galeries",
+  "info": {
+    "displayName": "ParalaxGalery"
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.header"
+    }
+  }
+}

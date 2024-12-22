@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_blocks_details",
+  "info": {
+    "displayName": "Details",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.header"
+    },
+    "additionalHeader": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.header"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    },
+    "priceText": {
+      "type": "string"
+    },
+    "items": {
+      "displayName": "Detail",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.detail"
+    },
+    "title": {
+      "type": "string"
+    },
+    "notIncludedItem": {
+      "displayName": "NotIncludedItems",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.not-included-items"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "kind": "collectionType",
+  "collectionName": "quads",
+  "info": {
+    "singularName": "quad",
+    "pluralName": "quads",
+    "displayName": "quad",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "name": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "slug": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "uid",
+      "targetField": "name"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.seo"
+    },
+    "blocks": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "blocks.reviews",
+        "blocks.offers",
+        "blocks.faq",
+        "blocks.banner",
+        "blocks.contact",
+        "blocks.primary-banner",
+        "blocks.hero",
+        "blocks.features-with-images",
+        "blocks.about-with-images",
+        "blocks.details",
+        "blocks.trip-details"
+      ]
+    }
+  }
+}

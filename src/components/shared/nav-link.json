@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_shared_nav_links",
+  "info": {
+    "displayName": "NavLink",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "deepLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    },
+    "href": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "target": {
+      "type": "enumeration",
+      "enum": [
+        "_blank"
+      ]
+    },
+    "isExternal": {
+      "type": "boolean"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

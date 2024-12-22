@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "skuters",
+  "info": {
+    "singularName": "skuter",
+    "pluralName": "skuters",
+    "displayName": "skuter"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.about-with-images",
+        "blocks.contact",
+        "blocks.faq",
+        "blocks.features-with-images",
+        "blocks.features",
+        "blocks.hero",
+        "blocks.offers",
+        "blocks.primary-banner",
+        "blocks.reviews",
+        "blocks.trip-details",
+        "blocks.details",
+        "blocks.about",
+        "blocks.banner"
+      ]
+    }
+  }
+}

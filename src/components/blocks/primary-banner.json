@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_blocks_primary_banners",
+  "info": {
+    "displayName": "PrimaryBanner"
+  },
+  "options": {},
+  "attributes": {
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    },
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.header"
+    }
+  }
+}
