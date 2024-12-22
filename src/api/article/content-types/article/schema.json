@@ -73,12 +73,6 @@
       },
       "component": "shared.seo"
     },
-    "category": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::category.category",
-      "inversedBy": "articles"
-    },
     "ckeditor_content": {
       "pluginOptions": {
         "i18n": {
