@@ -17,13 +17,17 @@
     },
     "theme": {
       "type": "enumeration",
-      "enum": ["primary", "secondary", "muted"],
+      "enum": [
+        "primary",
+        "secondary",
+        "muted"
+      ],
       "default": "muted"
     },
-    "faq": {
-      "type": "component",
-      "repeatable": true,
-      "component": "shared.question-answer"
+    "faqs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::faq.faq"
     }
   }
 }

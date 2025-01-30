@@ -26,11 +26,11 @@
     "slug": {
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       },
-      "type": "uid",
-      "targetField": "name"
+      "type": "string",
+      "required": false
     },
     "seo": {
       "type": "component",

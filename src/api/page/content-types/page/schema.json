@@ -59,7 +59,8 @@
         "blocks.primary-banner",
         "blocks.social",
         "blocks.paralax-galery",
-        "blocks.drop-labs"
+        "blocks.drop-labs",
+        "restaurant.rich-content"
       ],
       "pluginOptions": {
         "i18n": {
